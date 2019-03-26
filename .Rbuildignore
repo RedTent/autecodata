@@ -1,0 +1,4 @@
+^data-raw$
+^LICENSE\.md$
+^autecodata\.Rproj$
+^\.Rproj\.user$
