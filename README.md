@@ -12,11 +12,12 @@ Er zijn diverse bronnen die gebruikt kunnen worden om auto-ecologische data te r
 - KRW-maatlatten (aquokit)
 - Hulptabellen aquokit
 - WEW-publicaties
+- Achtergrondinfo ESFs
 - Informatie die verwerkt is in diverse indexen, bijvoorbeeld de Van Dam Index voor diatomeeën
 
 ## Dataverwerking
 De ervaring leert dat auto-ecologische informatie in uiteenlopende formaten beschikbaar is. Deze variatie maakt de analyse over het algemeen niet makkelijker. Daarom is het doel om voor zover mogelijk deze informatie op te schonen en in een *tidy* formaat aan te bieden. Het opschonen zal onder andere bestaan uit het gebruiken van voorkeursnamen conform de TWN-lijst. De bewerkingsstappen worden indien mogelijk als R-code aangeboden in de map `data-raw`.
-Daarnaast beoogt dit package om naar de originele data te verwijzen of op te nemen.
+Daarnaast beoogt dit package om naar de originele data te verwijzen of op te nemen. Deze data wordt opgenomen in de map *inst/extdata*.
 
 ## Beschrijving datasets
 
@@ -24,6 +25,7 @@ Van elke dataset moeten de volgende zaken worden beschreven:
 
 - Naam van de dataset
 - Bronhouder
+- Gebruiksrechten
 - Naam van de persoon of organisatie die de dataset heeft opgesteld
 - Verwijzing waar de dataset gevonden kan worden
 - Oorspronkelijk doel van de dataset
@@ -32,3 +34,7 @@ Van elke dataset moeten de volgende zaken worden beschreven:
 - Soortgroep(en) waar de dataset over gaat. Bijv: macrofauna of vis
 - Type informatie die de dataset bevat
 - Mogelijke toepassingen voor de dataset
+
+## Hulptabellen
+
+Het is mogelijk dat in de toekomst ook diverse hulptabellen opgenomen worden. Denk hierbij aan tabellen met de hierarchie van verschillende taxonomische niveau e.d.
