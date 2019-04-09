@@ -13,6 +13,8 @@ library(readxl)
 
 raw_data <- read_excel("data-raw/wew_themanummer23_soortenlijst.xls", na = "x", skip = 2)
 
+mapping <- read_excel("data-raw/wew_themanummer23_soortenlijst.xls", sheet = "factoren en klassengrenzen") %>% fill(factor)
+
 wew_mafa_zeldzaamheid <- raw_data %>% 
                          rename(taxonnaam = `Taxonnaam (TWN)`) %>% 
                          rename_at(vars(55), .funs = function(x) "zeldzaamheid") %>% 
@@ -47,10 +49,13 @@ raw_data_header <- tibble(indicator_groep = rownames(header),
                    mutate(indicator_groep = ifelse(str_detect(indicator_groep, "\\.\\."), NA, indicator_groep)) %>% 
                    fill(indicator_groep)
 
-mapping <- read_excel("data-raw/wew_themanummer23_soortenlijst.xls", sheet = "factoren en klassengrenzen") %>% fill(factor)
+
   
 wew_mafa_toelichting <- left_join(raw_data_header, mapping, by = c("indicator_waarde_code" = "code")) %>% 
                rename(omschrijving = klasse) %>% 
                select(-factor) %>% 
                filter(!is.na(indicator_groep))
 
+use_data(wew_mafa_data, overwrite = TRUE)
+use_data(wew_mafa_zeldzaamheid, overwrite = TRUE)
+use_data(wew_mafa_toelichting, overwrite = TRUE)
