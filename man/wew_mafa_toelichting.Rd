@@ -4,7 +4,13 @@
 \name{wew_mafa_toelichting}
 \alias{wew_mafa_toelichting}
 \title{Toelichting op de betekenis van de indicatoren van wew_mafa_data}
-\format{An object of class \code{tbl_df} (inherits from \code{tbl}, \code{data.frame}) with 56 rows and 4 columns.}
+\format{Dataframe
+\itemize{
+\item \code{indicator_groep} Het type milieufactor
+\item \code{indicator_waarde_code}  Code voor de milieufactor
+\item \code{indicator_waarde} Waarde van de milieufactor
+\item \code{omschrijving} Betekenis van de indicatorwaarde
+}}
 \usage{
 wew_mafa_toelichting
 }

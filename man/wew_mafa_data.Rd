@@ -4,10 +4,12 @@
 \name{wew_mafa_data}
 \alias{wew_mafa_data}
 \title{Milieu- en habitatpreferenties van Nederlandse zoetwatermacrofauna}
-\format{Dataframe met 4 kolommen
+\format{Dataframe
 \itemize{
-\item \code{taxonnaam} Taxonnaam
-\item \code{indicator_groep} Naam van de milieufactor
+\item \code{taxonnaam_orig} Taxonnaam uit originele dataset
+\item \code{taxonnaam_voorkeur} Voorkeursnaam taxon. Als deze ontbreekt betekent dat dat de \code{taxonnaam_orig}
+niet in de TWN-lijst voorkomt.
+\item \code{indicator_groep} Het type milieufactor
 \item \code{indicator_waarde} Waarde van de milieufactor
 \item \code{indicator_waarde_aandeel} Relatief aandeel van de waarde binnen de milieufactor op een schaal van 0 tot 10.
 }}
@@ -21,16 +23,13 @@ wew_mafa_data
 }
 \description{
 Deze dataset bevat autecologische informatie van Nederlandse macrofaunasoorten en is opgesteld door
-de subgroep Autecologie van de \href{www.wew.nu}{Werkgroep Ecologische Waterbeheer}.
+de subgroep Autecologie van de \href{www.wew.nu}{Werkgroep Ecologisch Waterbeheer}.
 }
 \details{
 Voor negen factoren zijn de milieu- en habitatpreferenties van macrofaunasoorten verzameld,
 namelijk zoutgehalte, zuurgraad, droogval, stroomsnelheid, substraat, diepte, oppervlakte,
 saprobie en trofie. Deze factoren zijn gekozen omdat ze sterk sturend zijn en omdat er voldoende
 gegevens van beschikbaar zijn. Voor elke factor zijn vier tot tien klassen onderscheiden.
-
-Oorspronkelijk doel van de dataset
-Bewerkingen + datum
 }
 \section{Metadata dataset}{
 
@@ -44,9 +43,21 @@ Bewerkingen + datum
 \item \emph{Subgroep Autoecologie, WEW-23.}
 }
 \item \strong{Datum dataset:} Mei 2012.
+\item \strong{Datum opname dataset:} 10 April 2019
 \item \strong{Gebruiksrechten:} Geen beperkingen
 \item \strong{Soortgroep:} Macrofauna
 }
+}
+
+\section{Bewerkingen}{
+
+
+Ten behoeve van eenvoudiger gebruik van de dataset is de dataset omgezet in een \emph{lang} formaat. Ontbrekende waarden
+zijn niet opgenomen.
+
+De zeldzaamheid is opgenomen in de aparte tabel \link{wew_mafa_zeldzaamheid}.
+
+Een toelichting op de indicatoren is opgenomen in \link{wew_mafa_toelichting}.
 }
 
 \seealso{
