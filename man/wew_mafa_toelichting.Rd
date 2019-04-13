@@ -17,6 +17,10 @@ wew_mafa_toelichting
 \description{
 Deze dataset bevat een toelichting op de betekenis van de indicatorwaarden in \link{wew_mafa_data}.
 }
+\examples{
+
+head(wew_mafa_toelichting)
+}
 \seealso{
 \link{wew_mafa_data} en \link{wew_mafa_zeldzaamheid}
 }

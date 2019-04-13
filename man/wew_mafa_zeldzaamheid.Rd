@@ -46,6 +46,10 @@ Aangenomen wordt dat deze code betekent dat de betreffende soort in Nederland is
 }
 }
 
+\examples{
+
+head(wew_mafa_zeldzaamheid)
+}
 \seealso{
 \link{wew_mafa_data} en \link{wew_mafa_toelichting}
 }

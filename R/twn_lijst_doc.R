@@ -46,7 +46,9 @@
 #' [http://sofus.ecosys.nl/Taxus/Downloads/Taxalists/TWNList.XLS](http://sofus.ecosys.nl/Taxus/Downloads/Taxalists/TWNList.XLS)
 #' 
 #'
-#'
+#' @examples 
+#' 
+#' head(twn_lijst)
 "twn_lijst"
 
 

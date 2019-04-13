@@ -57,4 +57,8 @@ De TWN-lijst wordt regelmatig van updates voorzien. Deze TWN-lijst kan daarom en
 }
 }
 
+\examples{
+
+head(twn_lijst)
+}
 \keyword{datasets}

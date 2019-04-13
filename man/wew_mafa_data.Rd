@@ -60,6 +60,11 @@ De zeldzaamheid is opgenomen in de aparte tabel \link{wew_mafa_zeldzaamheid}.
 Een toelichting op de indicatoren is opgenomen in \link{wew_mafa_toelichting}.
 }
 
+\examples{
+
+head(wew_mafa_data)
+
+}
 \seealso{
 \link{wew_mafa_zeldzaamheid} en \link{wew_mafa_toelichting}
 }

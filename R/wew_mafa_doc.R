@@ -53,6 +53,10 @@
 #' [http://www.wew.nu/publicaties/wew_themanummer23.pdf](http://www.wew.nu/publicaties/wew_themanummer23.pdf)
 #'
 #'
+#' @examples 
+#' 
+#' head(wew_mafa_data)
+#'
 "wew_mafa_data"
 
 # wew_mafa_zeldzaamheid ---------------------------------------------------
@@ -98,6 +102,9 @@
 #' @seealso 
 #' [wew_mafa_data] en [wew_mafa_toelichting]
 #'
+#' @examples 
+#' 
+#' head(wew_mafa_zeldzaamheid)
 "wew_mafa_zeldzaamheid"
 
 # wew_mafa_toelichting ----------------------------------------------------
@@ -117,5 +124,7 @@
 #' @seealso 
 #' [wew_mafa_data] en [wew_mafa_zeldzaamheid]
 #' 
-#'
+#'@examples 
+#' 
+#' head(wew_mafa_toelichting)
 "wew_mafa_toelichting"
