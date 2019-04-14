@@ -52,16 +52,3 @@
 "twn_lijst"
 
 
-#'- `taxontype`
-#'- `taxoncode`
-#'- `taxonname`
-#'- `author`
-#'- `taxongroup`
-#'- `taxonlevel`
-#'- `parentname`
-#'- `refername`
-#'- `literature`
-#'- `localname`
-#'- `date`
-#'- `status`
-
