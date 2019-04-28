@@ -1,3 +1,5 @@
+[![Travis build status](https://travis-ci.org/RedTent/autecodata.svg?branch=master)](https://travis-ci.org/RedTent/autecodata)
+
 # autecodata
 
 Het doel van dit package is om auto-ecologische informatie van aquatische soorten te verzamelen en te ontsluiten. Het doel is dat deze informatie daardoor makkelijker beschikbaar is en dat deze ook eenvoudiger te gebruiken is in analyses. Om eenvoudig gebruik te faciliteren wordt de data zoveel mogelijk aangeboden als [Tidy data](https://r4ds.had.co.nz/tidy-data.html).

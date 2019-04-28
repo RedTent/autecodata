@@ -1,6 +1,7 @@
+^\.travis\.yml$
 ^data-raw$
 ^LICENSE\.md$
 ^autecodata\.Rproj$
 ^\.Rproj\.user$
-DEV/
-docs/
+DEV
+docs
