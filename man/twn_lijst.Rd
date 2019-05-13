@@ -11,7 +11,7 @@
 \item \code{taxonname}  - Naam van het taxon
 \item \code{author}     - Auteur die het taxon beschreven heeft
 \item \code{taxongroup} - Taxonomische groep binnen het taxon
-\item \code{taxonlevel} - Het taxonomische niveau van het taxon
+\item \code{taxonlevel} - Het taxonomische niveau van het taxon - geordende factor.
 \item \code{parentname} - Naam van het ouder taxon
 \item \code{refername}  - Voorkeursnaam - alleen voor taxa met status 20
 \item \code{literature} - Literatuurverwijzing naar de beschrijving van het taxon
@@ -42,6 +42,10 @@ op \url{http://sofus.ecosys.nl/taxabase.htm}
 }
 \note{
 De TWN-lijst wordt regelmatig van updates voorzien. Deze TWN-lijst kan daarom enigszins verouderd zijn.
+
+De volgorde van de taxonlevels is op detailniveau (met name lager dan genus) soms enigszins arbitrair.
+Is een Cultivar bijv. een hoger niveau dan een Subspecies? Toch is er voor gekozen om de taxonlevels
+op te nemen als een geordende factor omdat dit nuttig kan zijn o.a. bij het filteren van de lijst.
 }
 \section{Metadata dataset}{
 

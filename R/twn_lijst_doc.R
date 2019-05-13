@@ -13,7 +13,7 @@
 #'- `taxonname`  - Naam van het taxon
 #'- `author`     - Auteur die het taxon beschreven heeft
 #'- `taxongroup` - Taxonomische groep binnen het taxon
-#'- `taxonlevel` - Het taxonomische niveau van het taxon
+#'- `taxonlevel` - Het taxonomische niveau van het taxon - geordende factor.
 #'- `parentname` - Naam van het ouder taxon
 #'- `refername`  - Voorkeursnaam - alleen voor taxa met status 20
 #'- `literature` - Literatuurverwijzing naar de beschrijving van het taxon
@@ -28,6 +28,10 @@
 #'    - `92` - Verandering van interpretatie - Niet gebruiken
 #' 
 #' @note De TWN-lijst wordt regelmatig van updates voorzien. Deze TWN-lijst kan daarom enigszins verouderd zijn.
+#' 
+#' De volgorde van de taxonlevels is op detailniveau (met name lager dan genus) soms enigszins arbitrair. 
+#' Is een Cultivar bijv. een hoger niveau dan een Subspecies? Toch is er voor gekozen om de taxonlevels 
+#' op te nemen als een geordende factor omdat dit nuttig kan zijn o.a. bij het filteren van de lijst.
 #' 
 #' @section Metadata dataset: 
 #' 

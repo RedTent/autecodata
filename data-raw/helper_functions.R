@@ -1,9 +1,14 @@
 update_twn <- function() {
+  require(tidyverse)
+  
   url <- "http://sofus.ecosys.nl/Taxus/Downloads/Taxalists/TWNList.XLS"
   destfile <- "data-raw/twn_lijst.xls"
   curl::curl_download(url, destfile)
   shell.exec("D:/Johan/R/autecodata/data-raw/twn_lijst.xls")
   twn_lijst <- readxl::read_excel(destfile) # werkt uitsluitend als het gedownloade bestand een keer geopend is geweest
+  taxonlevel_volgorde <- readr::read_csv2("data-raw/volgorde_taxonlevels.csv") %>% .$taxonlevel
+  
+  twn_lijst <- twn_lijst %>% mutate(taxonlevel = factor(taxonlevel, levels = taxonlevel_volgorde, ordered = TRUE))
   
   if (nrow(twn_lijst) > 10000) {
   use_data(twn_lijst, overwrite = TRUE)
