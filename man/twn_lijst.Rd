@@ -6,8 +6,7 @@
 \title{Taxa Waterbeeher Nederland (TWN)}
 \format{Dataframe met 12 kolommen
 \itemize{
-\item \code{taxontype}  - Code voor het type taxon. Bijv. MACEV of FYTPT
-\item \code{taxoncode}  - Code voor het taxon. Dit is verouderd en wordt afgeraden om te worden gebruikt
+\item \code{taxontype}  - Het type taxon bijv Macrophytes
 \item \code{taxonname}  - Naam van het taxon
 \item \code{author}     - Auteur die het taxon beschreven heeft
 \item \code{taxongroup} - Taxonomische groep binnen het taxon
@@ -28,9 +27,7 @@
 }
 }}
 \source{
-\url{http://sofus.ecosys.nl/taxabase.htm}
-
-\url{http://sofus.ecosys.nl/Taxus/Downloads/Taxalists/TWNList.XLS}
+\url{https://twnlist.aquadesk.nl/}
 }
 \usage{
 twn_lijst
@@ -38,7 +35,7 @@ twn_lijst
 \description{
 De TWN-lijst bevat de standaardlijst met namen van taxa zoals deze worden gebruikt binnen het
 Nederlandse waterbeheer. Deze dataset bevat de complete TWN-lijst zoals deze aangeboden wordt
-op \url{http://sofus.ecosys.nl/taxabase.htm}
+op \url{https://twnlist.aquadesk.nl/}
 }
 \note{
 De TWN-lijst wordt regelmatig van updates voorzien. Deze TWN-lijst kan daarom enigszins verouderd zijn.
@@ -55,7 +52,7 @@ op te nemen als een geordende factor omdat dit nuttig kan zijn o.a. bij het filt
 \item \strong{Beheer:} Rijkswaterstaat
 \item \strong{Leverancier:} EcoSys
 \item \strong{Datum dataset:}
-\item \strong{Datum opname dataset:} 12 April 2019
+\item \strong{Datum opname dataset:} 24 Mei 2019
 \item \strong{Gebruiksrechten:} Geen beperkingen
 \item \strong{Soortgroep:} Alle
 }

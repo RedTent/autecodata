@@ -1,4 +1,6 @@
-# Dit bestand dient compleet uitgevoerd/gesourced te worden
+# Dit bestand dient compleet uitgevoerd/gesourced te worden.
+# Met dit bestand wordt de tabel `twn_lijst` en de van de TWN-lijst
+# afgeleide objecten gemaakt.
 
 library(tidyverse)
 library(readxl)
@@ -24,8 +26,6 @@ opzoektabel_twn_voorkeur <-
   dplyr::distinct() %>% 
   tibble::deframe()
 
-use_data(opzoektabel_twn_voorkeur, internal = TRUE, overwrite = TRUE)
-
 ### Parent
 
 #twn_parent_1 is een opzoeklijst om soorten die niet de voorkeurnaam hebben toch een parent te geven.
@@ -43,8 +43,6 @@ opzoektabel_twn_parent <-
   dplyr::distinct() %>% 
   tibble::deframe()
 
-use_data(opzoektabel_twn_parent, internal = TRUE, overwrite = TRUE)
-
 ### Status
 
 opzoektabel_twn_status <- 
@@ -52,8 +50,6 @@ opzoektabel_twn_status <-
   dplyr::select(taxonname, status) %>% 
   dplyr::distinct() %>% 
   tibble::deframe()
-
-use_data(opzoektabel_twn_status, internal = TRUE, overwrite = TRUE)
 
 ### Nederlandse naam
 
@@ -63,8 +59,6 @@ opzoektabel_twn_localname <-
   dplyr::distinct() %>% 
   tibble::deframe()
 
-use_data(opzoektabel_twn_localname, internal = TRUE, overwrite = TRUE)
-
 ### Taxonlevel
 
 opzoektabel_twn_taxonlevel <- 
@@ -73,4 +67,9 @@ opzoektabel_twn_taxonlevel <-
   dplyr::distinct() %>% 
   tibble::deframe()
 
-use_data(opzoektabel_twn_taxonlevel, internal = TRUE, overwrite = TRUE)
+
+# save in sysdata ---------------------------------------------------------
+print("x")
+source("data-raw/sysdata.R")
+
+

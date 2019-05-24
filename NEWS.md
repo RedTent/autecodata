@@ -1,5 +1,7 @@
 # autecodata (development version)
 
+* Nieuwe TWN-lijst **NOG BESCHRIJVEN**
+* Oude TWN-lijst opgenomen in opbject twn_lijst_oud
 * Werken om de functies get_twn_* in autecodata op te nemen.
 
 # autecodata 0.0.0.9001
