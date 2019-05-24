@@ -1,3 +1,7 @@
+# autecodata (development version)
+
+* Werken om de functies get_twn_* in autecodata op te nemen.
+
 # autecodata 0.0.0.9001
 
 * Voorkeursnamen cf. TWN toegevoegd
