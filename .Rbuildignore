@@ -5,3 +5,4 @@
 ^\.Rproj\.user$
 DEV
 docs
+^codecov\.yml$

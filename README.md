@@ -1,4 +1,10 @@
+<!-- badges: start -->
+  
 [![Travis build status](https://travis-ci.org/RedTent/autecodata.svg?branch=master)](https://travis-ci.org/RedTent/autecodata)
+
+[![Codecov test coverage](https://codecov.io/gh/RedTent/autecodata/branch/master/graph/badge.svg)](https://codecov.io/gh/RedTent/autecodata?branch=master)
+
+<!-- badges: end -->
 
 # autecodata
 
