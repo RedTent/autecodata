@@ -6,3 +6,4 @@
 DEV
 docs
 ^codecov\.yml$
+^README\.Rmd$

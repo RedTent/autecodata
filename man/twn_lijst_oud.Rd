@@ -3,7 +3,7 @@
 \docType{data}
 \name{twn_lijst_oud}
 \alias{twn_lijst_oud}
-\title{Taxa Waterbeeher Nederland (TWN)}
+\title{Taxa Waterbeheer Nederland (TWN)}
 \format{Dataframe met 12 kolommen
 \itemize{
 \item \code{taxontype}  - Code voor het type taxon. Bijv. MACEV of FYTPT

@@ -1,4 +1,4 @@
-#' Taxa Waterbeeher Nederland (TWN)
+#' Taxa Waterbeheer Nederland (TWN)
 #' 
 #' De TWN-lijst bevat de standaardlijst met namen van taxa zoals deze worden gebruikt binnen het 
 #' Nederlandse waterbeheer. Deze dataset bevat de complete TWN-lijst zoals deze aangeboden wordt 
@@ -58,7 +58,7 @@
 
 
 
-#' Taxa Waterbeeher Nederland (TWN)
+#' Taxa Waterbeheer Nederland (TWN)
 #' 
 #' De TWN-lijst bevat de standaardlijst met namen van taxa zoals deze worden gebruikt binnen het 
 #' Nederlandse waterbeheer. Deze dataset bevat de complete TWN-lijst zoals deze aangeboden wordt 

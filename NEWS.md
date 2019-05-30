@@ -1,8 +1,13 @@
 # autecodata (development version)
 
-* Nieuwe TWN-lijst **NOG BESCHRIJVEN**
-* Oude TWN-lijst opgenomen in opbject twn_lijst_oud
-* De functies get_twn_* zijn opgenomen in autecodata op te nemen.
+* Nieuwe TWN-lijst 
+* Oude TWN-lijst opgenomen in opbject twn_lijst_oud - 
+* De functies get_twn_* zijn opgenomen in autecodata.
+
+## Wensen
+
+* WEW-lijst in orig format
+* functies over meerdere groepen voor een bepaald kenmerk. Bijv. `get_zoutgehalte(taxonnaam)`
 
 # autecodata 0.0.0.9001
 

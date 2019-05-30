@@ -3,7 +3,7 @@
 \docType{data}
 \name{twn_lijst}
 \alias{twn_lijst}
-\title{Taxa Waterbeeher Nederland (TWN)}
+\title{Taxa Waterbeheer Nederland (TWN)}
 \format{Dataframe met 12 kolommen
 \itemize{
 \item \code{taxontype}  - Het type taxon bijv Macrophytes
