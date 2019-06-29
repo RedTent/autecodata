@@ -3,7 +3,7 @@
 ^LICENSE\.md$
 ^autecodata\.Rproj$
 ^\.Rproj\.user$
-DEV
+DEV/
 docs
 ^codecov\.yml$
 ^README\.Rmd$
