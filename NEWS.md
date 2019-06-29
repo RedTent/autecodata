@@ -1,3 +1,7 @@
+# autecodata 0.0.1
+
+* KRW macrofyten tabellen opgenomen.
+
 # autecodata (development version)
 
 * Nieuwe TWN-lijst 
