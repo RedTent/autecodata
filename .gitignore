@@ -5,3 +5,5 @@ inst/doc
 .Ruserdata
 *.Rproj
 DEV/
+data-raw/van_dam_index_DIAT/
+data-raw/README_example/

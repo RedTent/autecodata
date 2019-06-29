@@ -5,7 +5,7 @@
 <meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Auto-ecologische Data Ontsluiten • autecodata</title>
+<title>Auto-ecologische Data Ontsluiten • Package met autecologische data - autecodata</title>
 <!-- jquery --><script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script><!-- Bootstrap --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha256-916EbMg70RQy9LHiGkXzG8hSg9EdNy97GazNG/aiY1w=" crossorigin="anonymous">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha256-U5ZEeKfGNOja007MMD3YBI0A3OSZOQbeG6z2f2Y0hu8=" crossorigin="anonymous"></script><!-- Font Awesome icons --><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0=" crossorigin="anonymous">
 <!-- clipboard.js --><script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.4/clipboard.min.js" integrity="sha256-FiZwavyI2V6+EXO1U+xzLG3IKldpiTFf3153ea9zikQ=" crossorigin="anonymous"></script><!-- sticky kit --><script src="https://cdnjs.cloudflare.com/ajax/libs/sticky-kit/1.1.3/sticky-kit.min.js" integrity="sha256-c4Rlo1ZozqTPE2RLuvbusY3+SU1pQaJC0TjuhygMipw=" crossorigin="anonymous"></script><!-- pkgdown --><link href="pkgdown.css" rel="stylesheet">
@@ -29,7 +29,7 @@
         <span class="icon-bar"></span>
       </button>
       <span class="navbar-brand">
-        <a class="navbar-link" href="index.html">autecodata</a>
+        <a class="navbar-link" href="index.html">Package met autecologische data - autecodata</a>
         <span class="version label label-default" data-toggle="tooltip" data-placement="bottom" title="Released version">0.0.0.9002</span>
       </span>
     </div>
@@ -131,7 +131,7 @@
 <a class="sourceLine" id="cb3-6" title="6"><span class="kw"><a href="https://www.rdocumentation.org/packages/utils/topics/head">head</a></span>(biologie_metingen)</a>
 <a class="sourceLine" id="cb3-7" title="7"><span class="co">#&gt; # A tibble: 6 x 15</span></a>
 <a class="sourceLine" id="cb3-8" title="8"><span class="co">#&gt;   meetpunt locatiebeschrij~     X      Y datum tijd   taxatype methodecode</span></a>
-<a class="sourceLine" id="cb3-9" title="9"><span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt; &lt;time&gt; &lt;chr&gt;    &lt;chr&gt;      </span></a>
+<a class="sourceLine" id="cb3-9" title="9"><span class="co">#&gt;   &lt;chr&gt;    &lt;chr&gt;            &lt;dbl&gt;  &lt;dbl&gt; &lt;chr&gt; &lt;drtn&gt; &lt;chr&gt;    &lt;chr&gt;      </span></a>
 <a class="sourceLine" id="cb3-10" title="10"><span class="co">#&gt; 1 S_0002   Bergse Achterpl~ 92923 440394 26-4~ 00'00" ZOOPT    ZOOPN      </span></a>
 <a class="sourceLine" id="cb3-11" title="11"><span class="co">#&gt; 2 S_0002   Bergse Achterpl~ 92923 440394 26-4~ 00'00" ZOOPT    ZOOPN      </span></a>
 <a class="sourceLine" id="cb3-12" title="12"><span class="co">#&gt; 3 S_0002   Bergse Achterpl~ 92923 440394 26-4~ 00'00" ZOOPT    ZOOPN      </span></a>
@@ -156,13 +156,13 @@
 <a class="sourceLine" id="cb5-6" title="6"><span class="co">#&gt; # A tibble: 7 x 2</span></a>
 <a class="sourceLine" id="cb5-7" title="7"><span class="co">#&gt;   status aantal</span></a>
 <a class="sourceLine" id="cb5-8" title="8"><span class="co">#&gt;   &lt;chr&gt;   &lt;int&gt;</span></a>
-<a class="sourceLine" id="cb5-9" title="9"><span class="co">#&gt; 1 10     324759</span></a>
-<a class="sourceLine" id="cb5-10" title="10"><span class="co">#&gt; 2 20        584</span></a>
-<a class="sourceLine" id="cb5-11" title="11"><span class="co">#&gt; 3 30        339</span></a>
-<a class="sourceLine" id="cb5-12" title="12"><span class="co">#&gt; 4 80       3706</span></a>
-<a class="sourceLine" id="cb5-13" title="13"><span class="co">#&gt; 5 91       1845</span></a>
-<a class="sourceLine" id="cb5-14" title="14"><span class="co">#&gt; 6 92        238</span></a>
-<a class="sourceLine" id="cb5-15" title="15"><span class="co">#&gt; 7 &lt;NA&gt;      806</span></a></code></pre></div>
+<a class="sourceLine" id="cb5-9" title="9"><span class="co">#&gt; 1 &lt;NA&gt;      806</span></a>
+<a class="sourceLine" id="cb5-10" title="10"><span class="co">#&gt; 2 10     324759</span></a>
+<a class="sourceLine" id="cb5-11" title="11"><span class="co">#&gt; 3 20        584</span></a>
+<a class="sourceLine" id="cb5-12" title="12"><span class="co">#&gt; 4 30        339</span></a>
+<a class="sourceLine" id="cb5-13" title="13"><span class="co">#&gt; 5 80       3706</span></a>
+<a class="sourceLine" id="cb5-14" title="14"><span class="co">#&gt; 6 91       1845</span></a>
+<a class="sourceLine" id="cb5-15" title="15"><span class="co">#&gt; 7 92        238</span></a></code></pre></div>
 <p>Wat gelijk opvalt is het aantal taxa waarvan de status mist (<code>NA</code>) overeenkomt met het aantal taxa dat ontbreekt in de TWN-lijst. Als een taxon niet in de TWN-lijst staat, dan heeft het taxon ook geen status. Het grootste aantal waarnemingen de status <em>10 - voorkeurnaam</em>.</p>
 <p>Het is ook mogelijk om de voorkeurnamen toe te voegen met <code><a href="reference/twn_info.html">get_twn_voorkeurnaam()</a></code>. Als de huidige naam al de voorkeurnaam blijft de naam ongewijzigd. Als het een synoniem is dan wordt de naam gewijzigd in de voorkeurnaam.</p>
 <div class="sourceCode" id="cb6"><pre class="sourceCode r"><code class="sourceCode r"><a class="sourceLine" id="cb6-1" title="1"></a>
@@ -177,11 +177,11 @@
 <a class="sourceLine" id="cb6-10" title="10"><span class="co">#&gt; # A tibble: 5 x 2</span></a>
 <a class="sourceLine" id="cb6-11" title="11"><span class="co">#&gt;   status aantal</span></a>
 <a class="sourceLine" id="cb6-12" title="12"><span class="co">#&gt;   &lt;chr&gt;   &lt;int&gt;</span></a>
-<a class="sourceLine" id="cb6-13" title="13"><span class="co">#&gt; 1 10     325682</span></a>
-<a class="sourceLine" id="cb6-14" title="14"><span class="co">#&gt; 2 80       3706</span></a>
-<a class="sourceLine" id="cb6-15" title="15"><span class="co">#&gt; 3 91       1845</span></a>
-<a class="sourceLine" id="cb6-16" title="16"><span class="co">#&gt; 4 92        238</span></a>
-<a class="sourceLine" id="cb6-17" title="17"><span class="co">#&gt; 5 &lt;NA&gt;      806</span></a></code></pre></div>
+<a class="sourceLine" id="cb6-13" title="13"><span class="co">#&gt; 1 &lt;NA&gt;      806</span></a>
+<a class="sourceLine" id="cb6-14" title="14"><span class="co">#&gt; 2 10     325682</span></a>
+<a class="sourceLine" id="cb6-15" title="15"><span class="co">#&gt; 3 80       3706</span></a>
+<a class="sourceLine" id="cb6-16" title="16"><span class="co">#&gt; 4 91       1845</span></a>
+<a class="sourceLine" id="cb6-17" title="17"><span class="co">#&gt; 5 92        238</span></a></code></pre></div>
 <p>Te zien is dat in dit geval alle taxa met status 20 en 30 een ander naam hebben gekregen en deze allemaal de status 10 hebben gekregen.</p>
 </div>
 </div>
