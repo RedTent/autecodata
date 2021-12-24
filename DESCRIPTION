@@ -1,6 +1,6 @@
 Package: autecodata
 Title: Auto-ecologische Data Ontsluiten
-Version: 0.0.1
+Version: 0.0.1.9000
 Authors@R: 
     person(given = "Johan",
            family = "van Tent",
