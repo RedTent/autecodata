@@ -4,7 +4,8 @@
 \name{wew_mafa_data}
 \alias{wew_mafa_data}
 \title{Milieu- en habitatpreferenties van Nederlandse zoetwatermacrofauna}
-\format{Dataframe
+\format{
+Dataframe
 \itemize{
 \item \code{taxonnaam_orig} Taxonnaam uit originele dataset
 \item \code{taxonnaam_voorkeur} Voorkeursnaam taxon. Als deze ontbreekt betekent dat dat de \code{taxonnaam_orig}
@@ -12,7 +13,8 @@ niet in de TWN-lijst voorkomt.
 \item \code{indicator_groep} Het type milieufactor
 \item \code{indicator_waarde} Waarde van de milieufactor
 \item \code{indicator_waarde_aandeel} Relatief aandeel van de waarde binnen de milieufactor op een schaal van 0 tot 10.
-}}
+}
+}
 \source{
 \url{http://www.wew.nu/publicaties/wew_themanummer23_soortenlijst.xls}
 

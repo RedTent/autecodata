@@ -4,14 +4,16 @@
 \name{wew_mafa_zeldzaamheid}
 \alias{wew_mafa_zeldzaamheid}
 \title{Zeldzaamheid van macrofauna}
-\format{Dataframe
+\format{
+Dataframe
 \itemize{
 \item \code{taxonnaam_orig} Taxonnaam uit originele dataset
 \item \code{taxonnaam_voorkeur} Voorkeursnaam taxon. Als deze ontbreekt betekent dat dat de \code{taxonnaam_orig}
 niet in de TWN-lijst voorkomt.
 \item \code{zeldzaamheid} Code voor de zeldzaamheid
 \item \code{omschrijving} Beschrijving van de zeldzaamheid
-}}
+}
+}
 \source{
 \url{http://www.wew.nu/publicaties/wew_themanummer23_soortenlijst.xls}
 

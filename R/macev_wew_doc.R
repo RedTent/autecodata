@@ -1,4 +1,4 @@
-# wew_mafa_data -----------------------------------------------------------
+# macev_wew_data -----------------------------------------------------------
 
 #' Milieu- en habitatpreferenties van Nederlandse zoetwatermacrofauna 
 #'
@@ -39,12 +39,12 @@
 #' Ten behoeve van eenvoudiger gebruik van de dataset is de dataset omgezet in een *lang* formaat. Ontbrekende waarden
 #' zijn niet opgenomen. 
 #' 
-#' De zeldzaamheid is opgenomen in de aparte tabel [wew_mafa_zeldzaamheid].
+#' De zeldzaamheid is opgenomen in de aparte tabel [macev_wew_zeldzaamheid].
 #' 
-#' Een toelichting op de indicatoren is opgenomen in [wew_mafa_toelichting].
+#' Een toelichting op de indicatoren is opgenomen in [macev_wew_toelichting].
 #' 
 #' @seealso 
-#' [wew_mafa_zeldzaamheid] en [wew_mafa_toelichting]
+#' [macev_wew_zeldzaamheid] en [macev_wew_toelichting]
 #' 
 #' @source 
 #' 
@@ -55,11 +55,11 @@
 #'
 #' @examples 
 #' 
-#' head(wew_mafa_data)
+#' head(macev_wew_data)
 #'
-"wew_mafa_data"
+"macev_wew_data"
 
-# wew_mafa_zeldzaamheid ---------------------------------------------------
+# macev_wew_zeldzaamheid ---------------------------------------------------
 
 #' Zeldzaamheid van macrofauna
 #' 
@@ -100,18 +100,18 @@
 #' [http://www.wew.nu/publicaties/wew_themanummer23.pdf](http://www.wew.nu/publicaties/wew_themanummer23.pdf)
 #' 
 #' @seealso 
-#' [wew_mafa_data] en [wew_mafa_toelichting]
+#' [macev_wew_data] en [macev_wew_toelichting]
 #'
 #' @examples 
 #' 
-#' head(wew_mafa_zeldzaamheid)
-"wew_mafa_zeldzaamheid"
+#' head(macev_wew_zeldzaamheid)
+"macev_wew_zeldzaamheid"
 
-# wew_mafa_toelichting ----------------------------------------------------
+# macev_wew_toelichting ----------------------------------------------------
 
-#' Toelichting op de betekenis van de indicatoren van wew_mafa_data
+#' Toelichting op de betekenis van de indicatoren van macev_wew_data
 #' 
-#' Deze dataset bevat een toelichting op de betekenis van de indicatorwaarden in [wew_mafa_data].
+#' Deze dataset bevat een toelichting op de betekenis van de indicatorwaarden in [macev_wew_data].
 #' 
 #' @format 
 #' Dataframe
@@ -122,9 +122,9 @@
 #' - `omschrijving` Betekenis van de indicatorwaarde
 #' 
 #' @seealso 
-#' [wew_mafa_data] en [wew_mafa_zeldzaamheid]
+#' [macev_wew_data] en [macev_wew_zeldzaamheid]
 #' 
 #'@examples 
 #' 
-#' head(wew_mafa_toelichting)
-"wew_mafa_toelichting"
+#' head(macev_wew_toelichting)
+"macev_wew_toelichting"
