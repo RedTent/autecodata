@@ -1,5 +1,7 @@
 # autecodata (development version)
 
+- twn-functies en tabellen verwijderd - functionaliteit zit in package `twn`
+
 # autecodata 0.0.1
 
 * KRW macrofyten tabellen opgenomen.
