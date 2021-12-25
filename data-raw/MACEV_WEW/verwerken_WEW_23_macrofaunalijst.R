@@ -43,12 +43,14 @@ macev_wew_data <-
   mutate(taxonnaam_voorkeur = twn_voorkeurnaam(taxonnaam_orig)) %>% 
   left_join(macev_wew_toelichting) %>% 
   mutate(indicator_waarde_code = unname(indicator_waarde_code)) %>% 
+  mutate_if(is.character, ~str_replace(., pattern = "ï", "i")) %>% 
   relocate(taxonnaam_orig, 
            taxonnaam_voorkeur, 
            indicator_groep, 
            indicator_waarde_code, 
            indicator_waarde, 
-           indicator_waarde_omschrijving)
+           indicator_waarde_omschrijving) 
+  
 
 
 macev_wew_zeldzaamheid <- 

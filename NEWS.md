@@ -1,6 +1,7 @@
 # autecodata (development version)
 
 - twn-functies en tabellen verwijderd - functionaliteit zit in package `twn`
+- WEW-lijst opnieuw gecheckt.
 
 # autecodata 0.0.1
 
