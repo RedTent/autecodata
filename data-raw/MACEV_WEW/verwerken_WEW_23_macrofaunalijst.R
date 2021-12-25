@@ -37,7 +37,7 @@ macev_wew_data <-
   rename_at(vars(46:50), .funs = function(x) paste0("trofie_",x)) %>% 
   rename_at(vars(51:54), .funs = function(x) paste0("zuurgraad_",x)) %>% 
   select(c(1:54)) %>% 
-  pivot_longer(cols = 2:54, names_to = "key", values_to = "indicator_waarde_aandeel") %>% 
+  pivot_longer(cols = 2:54, names_to = "key", values_to = "indicator_waarde_aandeel", values_drop_na = TRUE) %>% 
   # gather(key = "key", value = "indicator_waarde_aandeel", -taxonnaam_orig, na.rm = TRUE) %>% 
   separate(col = key, into = c("indicator_groep", "indicator_waarde"), sep = "_") %>% 
   mutate(taxonnaam_voorkeur = twn_voorkeurnaam(taxonnaam_orig)) %>% 
